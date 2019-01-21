@@ -2,13 +2,15 @@
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-module.exports = function (template, theme) {
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-    var themes = {
+module.exports = function (template, theme) {
+    var _themes;
+
+    var themes = (_themes = {
         bootstrap3: require('./themes/bootstrap3')(),
-        bootstrap4: require('./themes/bootstrap4')(),
-        bulma: require('./themes/bulma')()
-    };
+        bootstrap4: require('./themes/bootstrap4')()
+    }, _defineProperty(_themes, 'bootstrap4', require('./themes/element')()), _defineProperty(_themes, 'bulma', require('./themes/bulma')()), _themes);
 
     var templates = {
         default: require('./templates/default'),
