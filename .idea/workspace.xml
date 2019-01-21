@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8beb43b-161c-41d0-bdff-1812e5bd4280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/themes/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/directives/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/directives/input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/methods/display.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/methods/display.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/methods/init-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/methods/init-options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/methods/init-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/methods/init-state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/modules/list-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/modules/list-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/template-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/template-compiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/template-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/template-compiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +27,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -54,6 +55,7 @@
       <list>
         <option value="$PROJECT_DIR$/lib/template-compiler.js" />
         <option value="$PROJECT_DIR$/lib/themes/element.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -126,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548082205328</updated>
-      <workItem from="1548082206854" duration="379000" />
+      <workItem from="1548082206854" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379000" />
+    <option name="totallyTimeSpent" value="714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="28" width="1920" height="1144" extended-state="0" />
@@ -181,6 +183,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
