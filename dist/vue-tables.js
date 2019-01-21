@@ -3601,7 +3601,7 @@ var _created = __webpack_require__(23);
 var templateCompiler = __webpack_require__(24);
 
 exports.install = function (Vue, globalOptions, useVuex) {
-  var theme = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'bootstrap3';
+  var theme = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'element';
   var template = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 'default';
 
 
@@ -12487,7 +12487,7 @@ var _created = __webpack_require__(23);
 var templateCompiler = __webpack_require__(24);
 
 exports.install = function (Vue, globalOptions, useVuex) {
-  var theme = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'bootstrap3';
+  var theme = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'element';
   var template = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 'default';
 
 
