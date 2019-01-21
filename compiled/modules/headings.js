@@ -20,8 +20,8 @@ module.exports = function (h) {
 
           "class": this.sortableClass(column) },
         [h(
-          "span",
-          { "class": "VueTables__heading", attrs: { title: this.getHeadingTooltip(column, h) }
+          "div",
+          { "class": "VueTables__heading cell", attrs: { title: this.getHeadingTooltip(column, h) }
           },
           [this.getHeading(column, h)]
         ), sortControl.call(this, column)]

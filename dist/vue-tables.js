@@ -11346,11 +11346,23 @@ module.exports = function (h) {
       _this.allColumns.map(function (column) {
         var rowTemplate = _this.$scopedSlots && _this.$scopedSlots[column];
 
-        columns.push(h(
-          'td',
-          { 'class': _this.columnClass(column) },
-          [rowTemplate ? rowTemplate({ row: row, column: column, index: index }) : _this.render(row, column, index, h)]
-        ));
+        if (classes.framework === 'element') {
+          columns.push(h(
+            'td',
+            { 'class': _this.columnClass(column) },
+            [h(
+              'div',
+              { 'class': 'cell' },
+              [rowTemplate ? rowTemplate({ row: row, column: column, index: index }) : _this.render(row, column, index, h)]
+            )]
+          ));
+        } else {
+          columns.push(h(
+            'td',
+            { 'class': _this.columnClass(column) },
+            [rowTemplate ? rowTemplate({ row: row, column: column, index: index }) : _this.render(row, column, index, h)]
+          ));
+        }
       });
 
       if (_this.hasChildRow && !_this.opts.childRowTogglerFirst) columns.push(childRowToggler);
@@ -11785,8 +11797,8 @@ module.exports = function (h) {
 
           "class": this.sortableClass(column) },
         [h(
-          "span",
-          { "class": "VueTables__heading", attrs: { title: this.getHeadingTooltip(column, h) }
+          "div",
+          { "class": "VueTables__heading cell", attrs: { title: this.getHeadingTooltip(column, h) }
           },
           [this.getHeading(column, h)]
         ), sortControl.call(this, column)]
