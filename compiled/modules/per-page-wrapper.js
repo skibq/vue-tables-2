@@ -8,7 +8,7 @@ module.exports = function (h) {
 
         return perpageValues.length > 1 ? h(
             'div',
-            { 'class': 'VueTables__limit-field' },
+            { 'class': 'VueTables__limit-field input-group' },
             [h(
                 'label',
                 { 'class': classes.label, attrs: { 'for': perpageId }

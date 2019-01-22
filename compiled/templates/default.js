@@ -27,7 +27,7 @@ module.exports = function (h, modules, classes, slots) {
 
   var perpage = perpageValues.length > 1 ? h(
     'div',
-    { 'class': 'VueTables__limit-field' },
+    { 'class': 'VueTables__limit-field input-group' },
     [h(
       'label',
       { 'class': classes.label, attrs: { 'for': perpageId }
@@ -102,7 +102,7 @@ module.exports = function (h, modules, classes, slots) {
       )]
     ), slots.afterTable, modules.pagination((0, _merge2.default)(classes.pagination, {
       wrapper: classes.row + ' ' + classes.column + ' ' + classes.contentCenter,
-      nav: classes.center,
+      nav: '' + classes.pagination.nav,
       count: classes.center + ' ' + classes.column
     })), modules.dropdownPaginationCount()]
   );

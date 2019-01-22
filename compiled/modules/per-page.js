@@ -1,22 +1,18 @@
-"use strict";
+'use strict';
 
 module.exports = function (h) {
   var _this = this;
 
   return function (perpageValues, cls, id) {
-
+    cls = cls + ' VueTables__select-per-page';
     return perpageValues.length > 1 ? h(
-      "select",
-      { "class": cls,
-        attrs: { name: "limit",
-
-          id: id
-        },
-        domProps: {
-          "value": _this.limit
+      'el-select',
+      { 'class': cls,
+        attrs: { value: _this.limit,
+          size: 'mini'
         },
         on: {
-          "change": _this.setLimit.bind(_this)
+          'change': _this.setLimit.bind(_this)
         }
       },
       [perpageValues]

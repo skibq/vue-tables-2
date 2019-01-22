@@ -6,7 +6,7 @@ module.exports = function () {
         table: 'el-table el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition',
         row: 'row',
         column: 'col-md-12',
-        label: '',
+        label: 'input-label',
         input: 'form-control',
         select: 'form-control',
         field: 'form-group',
@@ -28,16 +28,16 @@ module.exports = function () {
             caret: 'caret'
         },
         pagination: {
-            nav: '',
-            count: '',
-            wrapper: '',
-            list: 'pagination',
-            item: 'page-item',
-            link: 'page-link',
-            next: '',
-            prev: '',
-            active: 'active',
-            disabled: 'disabled'
+            nav: 'el-pagination is-background',
+            count: 'VuePagination--test-count',
+            wrapper: 'VuePagination--test-wrapper',
+            list: 'el-pager',
+            item: 'number',
+            link: 'VuePagination--test-link',
+            next: 'VuePagination--test-next',
+            prev: 'VuePagination--test-prev',
+            active: 'active VuePagination--test-active',
+            disabled: 'disabled VuePagination--test-disabled'
         }
     };
 };

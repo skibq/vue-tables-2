@@ -9,13 +9,10 @@ module.exports = function (h) {
     var isLastEntry = value >= _this.count;
     var selected = _this.limit == value || isLastEntry && _this.limit > value;
     perpageValues.push(h(
-      "option",
+      "el-option",
       {
-        domProps: {
-          "value": value,
-          "selected": selected
-        }
-      },
+        attrs: { value: value, selected: selected },
+        key: value },
       [value]
     ));
     return !isLastEntry;
