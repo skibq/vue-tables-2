@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8beb43b-161c-41d0-bdff-1812e5bd4280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/methods/on-pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/methods/on-pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/modules/per-page-values.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/modules/per-page-values.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/modules/per-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/modules/per-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/templates/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/templates/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiled/themes/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/themes/element.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/vue-tables-2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-tables-2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/methods/on-pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/methods/on-pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/dropdown-pagination-count.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/dropdown-pagination-count.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/dropdown-pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/dropdown-pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/per-page-values.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/per-page-values.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/per-page-wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/per-page-wrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/per-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/per-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/templates/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/templates/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/themes/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/themes/element.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,46 +14,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-pagination-count.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/methods/on-pagination.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/templates/default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="89" column="74" lean-forward="true" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/lib/computed/filtered-data.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>template-compile</find>
       <find>templateCompiler</find>
       <find>render</find>
       <find>pagina</find>
@@ -97,6 +50,7 @@
       <find>this.allowedChunk</find>
       <find>first</find>
       <find>&lt;&lt;</find>
+      <find>Marci</find>
       <find>text-center</find>
     </findStrings>
     <dirStrings>
@@ -132,6 +86,7 @@
         <option value="$PROJECT_DIR$/lib/modules/dropdown-pagination-count.js" />
         <option value="$PROJECT_DIR$/lib/templates/default.js" />
         <option value="$PROJECT_DIR$/lib/themes/element.js" />
+        <option value="$PROJECT_DIR$/../email-footer-generator/scripts.js" />
       </list>
     </option>
   </component>
@@ -146,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,13 +118,18 @@
               <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="computed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,25 +166,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548082205328</updated>
-      <workItem from="1548082206854" duration="20599000" />
+      <workItem from="1548082206854" duration="21033000" />
+      <workItem from="1548242606342" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20599000" />
+    <option name="totallyTimeSpent" value="21370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="28" width="1920" height="1144" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.3297244" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -231,10 +188,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3297244" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,17 +435,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/default.js">
+    <entry file="file://$PROJECT_DIR$/../email-footer-generator/scripts.js" />
+    <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="89" column="74" lean-forward="true" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+        <state relative-caret-position="420">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-pagination-count.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -494,12 +457,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
+    <entry file="file://$PROJECT_DIR$/lib/templates/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="89" column="74" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/computed/filtered-data.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
