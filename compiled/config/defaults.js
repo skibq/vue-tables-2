@@ -46,10 +46,10 @@ module.exports = function () {
       columns: 'Columns'
     },
     sortIcon: {
-      is: 'glyphicon-sort',
-      base: 'glyphicon',
-      up: 'glyphicon-chevron-up',
-      down: 'glyphicon-chevron-down'
+      is: 'sort',
+      base: '',
+      up: 'sort-up',
+      down: 'sort-down'
     },
     sortingAlgorithm: function sortingAlgorithm(data, column) {
       return data.sort(this.getSortFn(column));

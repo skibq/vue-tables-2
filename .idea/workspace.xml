@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d8beb43b-161c-41d0-bdff-1812e5bd4280" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue-tables-2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-tables-2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/config/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/headings.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/modules/headings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/sort-control.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/modules/sort-control.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/methods/sortable-chevron-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/methods/sortable-chevron-class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/headings.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/headings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/sort-control.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/sort-control.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +22,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/sort-control.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/headings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/methods/sortable-chevron-class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/config/defaults.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/computed/filtered-data.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>templateCompiler</find>
-      <find>render</find>
-      <find>pagina</find>
-      <find>dropdownPaginationCount</find>
-      <find>&lt;paginati</find>
-      <find>&lt;el-</find>
-      <find>per-page'</find>
-      <find>per-page</find>
-      <find>perPage(</find>
       <find>setpage</find>
       <find>_onPagination</find>
       <find>el-pag</find>
@@ -52,14 +101,23 @@
       <find>&lt;&lt;</find>
       <find>Marci</find>
       <find>text-center</find>
+      <find>&lt;el-</find>
+      <find>&lt;el-select</find>
+      <find>el-se</find>
+      <find>sortableChevronClass</find>
+      <find>clone</find>
+      <find>sortIcon</find>
+      <find>sort-control</find>
+      <find>sortControl</find>
+      <find>sort</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
       <dir>/</dir>
-      <dir>$PROJECT_DIR$/lib</dir>
       <dir>$PROJECT_DIR$/libprev</dir>
       <dir>$PROJECT_DIR$/lib/</dir>
       <dir>$PROJECT_DIR$/</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/lib</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -68,12 +126,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/template-compiler.js" />
         <option value="$PROJECT_DIR$/lib/v-server-table.js" />
         <option value="$PROJECT_DIR$/lib/v-client-table.js" />
         <option value="$PROJECT_DIR$/lib/modules/rows.js" />
-        <option value="$PROJECT_DIR$/lib/modules/headings.js" />
         <option value="$PROJECT_DIR$/lib/modules/dropdown-pagination.js" />
         <option value="$PROJECT_DIR$/lib/modules/per-page-values.js" />
         <option value="$PROJECT_DIR$/lib/modules/per-page-wrapper.js" />
@@ -87,14 +143,20 @@
         <option value="$PROJECT_DIR$/lib/templates/default.js" />
         <option value="$PROJECT_DIR$/lib/themes/element.js" />
         <option value="$PROJECT_DIR$/../email-footer-generator/scripts.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/config/defaults.js" />
+        <option value="$PROJECT_DIR$/lib/methods/sortable-chevron-class.js" />
+        <option value="$PROJECT_DIR$/lib/modules/headings.js" />
+        <option value="$PROJECT_DIR$/lib/modules/sort-control.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1919" />
     <option name="y" value="28" />
-    <option name="width" value="1920" />
-    <option name="height" value="1144" />
+    <option name="width" value="1922" />
+    <option name="height" value="1145" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -118,13 +180,7 @@
               <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="computed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,18 +223,18 @@
       <option name="presentableId" value="Default" />
       <updated>1548082205328</updated>
       <workItem from="1548082206854" duration="21033000" />
-      <workItem from="1548242606342" duration="337000" />
+      <workItem from="1548242606342" duration="7576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21370000" />
+    <option name="totallyTimeSpent" value="28609000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="28" width="1920" height="1144" extended-state="0" />
+    <frame x="1919" y="28" width="1922" height="1145" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -192,7 +248,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3297244" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3297244" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -212,25 +268,8 @@
     <entry file="file://$PROJECT_DIR$/lib/themes/bootstrap4.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/config/defaults.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/index.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="321">
-            <caret line="79" column="62" selection-start-line="79" selection-start-column="62" selection-end-line="79" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compiled/template-compiler.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -260,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="43" column="88" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/vue-tables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
@@ -278,13 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="72" column="19" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/headings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -365,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mixins/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/pagination.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -390,13 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -436,13 +447,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../email-footer-generator/scripts.js" />
-    <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-pagination-count.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -464,8 +468,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/computed/filtered-data.js">
+    <entry file="file://$PROJECT_DIR$/../skibq-vue-tables-2-0dbb67f/lib/modules/per-page.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mixins/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/computed/filtered-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="68" lean-forward="true" selection-start-column="68" selection-end-column="68" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/themes/element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/sort-control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/methods/sortable-chevron-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/headings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/defaults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

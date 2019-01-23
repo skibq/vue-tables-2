@@ -23,8 +23,8 @@ module.exports = function (h) {
           "div",
           { "class": "VueTables__heading cell", attrs: { title: this.getHeadingTooltip(column, h) }
           },
-          [this.getHeading(column, h)]
-        ), sortControl.call(this, column)]
+          [this.getHeading(column, h), sortControl.call(this, column)]
+        )]
       ));
     }.bind(_this));
 
