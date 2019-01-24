@@ -14,7 +14,7 @@ module.exports = function (h, modules, classes, slots) {
   var perpageValues = require('../modules/per-page-values').call(this, h);
 
   var genericFilter = this.hasGenericFilter ? h(
-    'div',
+    'el-col',
     { 'class': 'VueTables__search-field' },
     [h(
       'label',
@@ -65,7 +65,7 @@ module.exports = function (h, modules, classes, slots) {
 
   var footerHeadings = this.opts.footerHeadings ? h('tfoot', [h('tr', [modules.headings(classes.right)])]) : '';
 
-  var shouldShowTop = genericFilter || perpage || dropdownPagination || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
+  var shouldShowTop = perpage || genericFilter || dropdownPagination || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
 
   var tableTop = h(
     'div',
@@ -75,16 +75,23 @@ module.exports = function (h, modules, classes, slots) {
       }]
     },
     [h(
-      'div',
-      { 'class': classes.column },
+      'el-row',
+      {
+        attrs: { gutter: 20, type: 'flex', justify: 'space-between' },
+        'class': classes.column },
       [h(
-        'div',
-        { 'class': classes.field + ' ' + classes.inline + ' ' + classes.left + ' VueTables__search' },
-        [slots.beforeFilter, genericFilter, slots.afterFilter]
-      ), h(
-        'div',
-        { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
+        'el-col',
+        {
+          attrs: { xs: 24, sm: 8, md: 8, lg: 4, xl: 4,
+            className: classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' }
+        },
         [slots.beforeLimit, perpage, slots.afterLimit]
+      ), h(
+        'el-col',
+        {
+          attrs: { xs: 24, sm: 18, md: 16, lg: 14, xl: 12 },
+          'class': 'VueTables__search' },
+        [slots.beforeFilter, genericFilter, slots.afterFilter]
       ), dropdownPagination, columnsDropdown]
     )]
   );
